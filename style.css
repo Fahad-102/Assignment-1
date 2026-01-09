@@ -420,3 +420,61 @@ body{
     margin-left: 16px;
     cursor: pointer;
 }
+#note{
+    margin-bottom: 16px ;
+}
+#note h4{
+    font-size: 48px;
+    text-align: center;
+    margin-bottom: 16px; 
+}
+
+#note p {
+    font-size: 16px;
+    text-align: center;
+}
+
+.cards{
+    display: flex;
+    gap: 24px;
+    padding-left:120px ;
+    padding-right: 120px;
+}
+
+.card {
+    padding:24px ;
+    background-color: white;
+    padding-top:69px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px;
+}
+
+.card:hover {
+    padding:24px ;
+    background-color: white;
+    padding-top:69px;
+    padding-bottom: 20px;
+    text-align: center;
+    box-shadow: 2px 2px 2px 2px;
+    width: 200px;
+    cursor: pointer;
+}
+
+
+.card h4 {
+    margin: 5px;
+    font-size: 24px;
+}
+.card p{
+    line-height: 20px;
+    font-size: 19px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.card img {
+    background-color: red;
+    border-radius: 50%;
+    padding:14px ;
+}
